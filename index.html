@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <title>TidyHome</title>	
+
+<!--css-->   
+    <link type="text/css" href="tidyhome.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<!--javascript-->
+    <script src="jquery/jquery-2.2.0.min.js"></script>
+    <script src="tidyhome.js"></script>
+</head>
+    
+<body>
+
+<!--iphone-->
+<img src="images/iphone-template.png" id="iphone-template" />
+<!--background image-->    
+<img src="images/home-page.png" id="home-page" />
+    
+<!--home screen-->
+<section id="home-screen">
+<!--logo-->  
+<img src="images/logo.png" id="tidyhome-logo" /> 
+    
+<article>
+    
+<h1 class="tidyhome-logo">TIDYHOME</h1>
+    
+<div class="login-form">
+     <div class="form-group">
+       <input type="text" class="form-control" placeholder="Username" id="UserName">
+       <i class="fa fa-user"></i>
+     </div>
+     <div class="form-group log-status">
+       <input type="password" class="form-control" placeholder="Password" id="Password">
+       <i class="fa fa-lock"></i>
+     </div>
+     <button type="button" class="log-btn">Log in</button>
+    <a id="sign-up" class="link" href="#">Sign up!</a>
+      <a id="forgot-password" class="link" href="#">Forgot your password?</a>
+   </div>
+    
+</article>
+    
+</section>  
+    
+<!--sign up screen-->
+<section id="sign-up-screen">
+    <h1>Registration</h1>
+    <div class="login-form" id="sign-up-form">
+     <div class="form-group ">
+       <input type="text" class="form-control" placeholder="First name" id="FirstName">
+       <i class="fa fa-user"></i>
+     </div>
+     <div class="form-group log-status">
+       <input type="text" class="form-control" placeholder="Last name" id="LastName">
+       <i class="fa fa-lock"></i>
+     </div>
+     <div class="form-group ">
+       <input type="text" class="form-control" placeholder="Username" id="UserName">
+       <i class="fa fa-user"></i>
+     </div>
+     <div class="form-group log-status">
+       <input type="text" class="form-control" placeholder="Password" id="PassWord">
+       <i class="fa fa-lock"></i>
+     </div>
+     <div class="form-group log-status">
+       <input type="text" class="form-control" placeholder="Email" id="EmailAddress">
+       <i class="fa fa-lock"></i>
+     </div>
+     <button type="button" class="log-btn" id="submit-btn-1">Submit</button>
+   </div>
+</section>
+
+<!--main screen-->
+<section id="main-screen">
+    <nav class="navwrapper-1">   
+        <ul class="main-nav-logo">
+            <li>TIDYHOME</li>   
+        </ul>
+        <img class="list-icon" src="images/icons/list.png" />
+    </nav>
+    
+    <img class="add-icon-large" src="images/icons/add-large.png" />
+    <h4 class="add-chore-list">Add Chore List</h4>
+</section> 
+    
+<!--sidebar-->
+<section id="sidebar">
+    <nav class="navwrapper-2">  
+        <img class="back-icon" src="images/icons/back.png" />
+        <img class="ashley" src="images/ashley.png" />
+        <h4 class="name">Ashley Pae</h4>   
+        <img class="add-icon" src="images/icons/add.png" />
+        <h6 class="housemates">Add Housemates</h6>
+        <img class="help-icon" src="images/icons/help.png" />
+        <img class="settings-icon" src="images/icons/settings.png" />
+    </nav>
+</section>
+ 
+<!--chore form-->
+<section id="chore-form">
+    <h1 class="chore-list">Chore List</h1>
+    <div class="login-form" id="sign-up-form">
+     <div class="form-group ">
+       <input type="text" class="form-control" placeholder="Chore 1" id="Chore1">
+       <i class="fa fa-user"></i>
+     </div>
+     <div class="form-group log-status">
+       <input type="text" class="form-control" placeholder="Chore 2" id="Chore2">
+       <i class="fa fa-lock"></i>
+     </div>
+     <div class="form-group log-status">
+       <input type="text" class="form-control" placeholder="Chore 3" id="Chore3">
+       <i class="fa fa-lock"></i>
+     </div>
+     <div class="form-group log-status">
+       <input type="text" class="form-control" placeholder="Chore 4" id="Chore4">
+       <i class="fa fa-lock"></i>
+     </div>
+
+     <button type="button" class="log-btn" id="submit-btn-2">Submit</button>
+   </div>
+</section>
+
+<!--main screen 2-->
+<section id="main-screen-2">
+    <nav class="navwrapper-1">   
+        <ul class="main-nav-logo">
+            <li>TIDYHOME</li>   
+        </ul>
+        <img class="list-icon" src="images/icons/list.png" />
+    </nav>
+    
+    <img src="images/main-screen.png" class="main-screen-image" />
+</section>     
+    
+</body>
+
+</html>
